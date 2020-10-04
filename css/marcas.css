@@ -1,0 +1,57 @@
+html{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+body{
+    background-color: bisque;
+    display: grid;
+    grid-template-areas:    "header"
+                            "titulo"
+                            "tabla";
+}
+
+header{
+    grid-area: header;
+}
+
+h1{
+    grid-area: titulo;
+    text-align: center;
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+}
+
+header img{
+    height: 20%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+table{
+    grid-area: tabla;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+td{
+    border-radius: 10px;
+    padding: 2%;
+    background-color: brown;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a input{
+    margin-top: 2%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
